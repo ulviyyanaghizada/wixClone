@@ -1,0 +1,45 @@
+#about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+ 
+}
+.aboutText{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutImage{
+    width: 50%;
+    height: 100vh;
+    background-image: url(/assets/\/c837a6_38f0ee339302476e9f04ad2cab58a10e~mv2\ \(1\).png);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 120vh;
+}
+.aboutTextContainer{
+    max-width: 90%;
+    min-height:  80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutText  p{
+    color: rgb(158, 63, 253);
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.aboutText  h3{
+    color: rgb(22, 22, 63);
+    font-size: 2rem;
+}
+.aboutText .paragraphAbout{
+  color: rgb(22, 22, 63);
+  font-size: 1rem;
+  font-weight: 200;
+}

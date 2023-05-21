@@ -1,0 +1,52 @@
+#home {
+    background-image: url(/assets/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 119vh;
+    width: 100%;
+
+}
+
+.homeText {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    padding-left: 120px;
+    gap: 28px;
+}
+
+.homeText .mainText{
+   font-size: 5.2rem;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(22, 22, 63);
+}
+.homeText .secondText{
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 63);
+ }
+
+.homeText button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(158, 63, 253);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.homeText button:hover {
+    background-color: rgb(12, 12, 71);
+    transition: .3s;
+}

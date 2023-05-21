@@ -1,0 +1,334 @@
+
+@media screen and (max-width: 1000px){
+    .menu-btn-1 {
+       display: flex !important;
+    }
+    .navContainer ul{
+        display: none !important;
+    }
+    .navContainer {
+        justify-content: space-around !important;
+
+    }
+    .navContainer button {
+        height: 35px !important;
+        width: 100px !important;
+        font-size: .8rem !important;
+
+    }
+   
+
+    main{
+        width: 100% !important;
+    }
+    #clients{
+        min-height: 30vh !important;
+    }
+    #contacts{
+        height: auto !important;
+        min-height: 100vh !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 40px !important;
+        margin-bottom: 50px !important;
+    }
+  
+    .contactsText {
+        width: 100%;
+        min-height: 50% !important;
+        padding-bottom: 60px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textOfContacts{
+        min-height: 100%;
+    }
+    
+    .contactsForm {
+        width: 90% !important;
+        height: 50%;
+    }
+
+    #clients ul{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.testimonialText h3{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem !important;
+    text-align: center;
+}
+
+
+
+#about{
+    min-height: 160vh !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.aboutText{
+    padding-top: 30px !important;
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutTextContainer{
+    max-height: 100% !important;
+    padding-bottom: 10px !important ;
+    
+}
+.aboutImage{
+    
+    width: 100% !important;
+    height: 50% !important;
+    background-attachment: scroll !important;
+    background-size: cover !important;
+}
+
+#testimonias{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    height: 70vh;
+}
+
+.testimonialText{
+    gap: 0px !important;
+    max-height: 60% !important;
+
+}
+
+.aboutTextContainer{
+    width: 100% !important;
+    min-height: 100% !important;
+    margin-bottom: 10px;
+   margin-top: 30px !important;
+   overflow: hidden;
+
+}
+
+.paragraphAbout{
+    width: 100% !important;
+   
+
+}
+.aboutText{
+    width: 100% !important;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+#numbers{
+    padding-top: 30px;
+    padding-bottom: 0 !important;
+   justify-content: center !important;
+    height: auto !important;
+    min-height: 60vh !important;
+}
+.numberText{
+    height: 30% !important;
+    font-size: 1rem !important;
+}
+
+.numbers{
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    font-size: 1rem !important;
+    margin: 0 !important;
+    padding-top: 0 !important;
+    gap: 10px !important;
+}
+.numbers h2{
+    font-size: 2rem !important;
+}
+
+.circle{
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    display: none;
+}
+
+
+
+
+
+
+#services{
+    height: 160vh !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px !important ;
+    margin: 0!important;
+}
+.serviceText{
+    padding-top: 0 !important;
+    height: 25% !important;
+
+}
+
+.serviceCards{
+    height: 75% !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+.cards{
+    height: 100% !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    padding-bottom: 20px !important;
+    
+}
+.cards .card{
+    width: 90% !important;
+    height: 30% !important;
+}
+.card img{
+    height: 40% ;
+    width: auto;
+}
+.cardText{
+height: 30%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.cardText p{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(23, 23, 64);
+    }
+    .cardText h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: rgb(23, 23, 64);
+          }
+
+.cardTextSecond{
+    width: 65%;
+    margin: auto;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+#home {
+    background-attachment: scroll !important;
+    background-position: center !important;
+    height: 80vh !important;
+}
+
+.homeText {
+    height: 100%!important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center !important;
+    padding-top: 30px;
+    padding-left: 0 !important;
+    gap: 28px;
+}
+
+.homeText .mainText{
+   font-size: 3rem !important;
+   text-align: center !important;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(22, 22, 63);
+}
+.homeText .secondText{
+    font-size: 1rem !important;
+    text-align: center !important;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 63);
+ }
+
+.homeText button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(158, 63, 253);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.homeText button:hover {
+    background-color: rgb(12, 12, 71);
+    transition: .3s;
+}
+.bottomborder{
+    width: 100% !important;
+}
+
+
+.links{
+    display: flex;
+    justify-content: center !important;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 560px){
+    .btn{
+        justify-content: flex-start !important;
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    .btn{
+        width: 50% !important;
+        justify-content: flex-start;
+    }
+}
+
+
+

@@ -1,0 +1,67 @@
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(187, 176, 176);
+    position: sticky;
+    top: 0;
+    transition: .3s;
+    z-index: 20;
+}
+.navContainer{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navContainer .logo img{
+    width: auto;
+    height: 60px;
+}
+.navContainer ul{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+.navContainer ul a{
+    text-decoration: none;
+    color: rgb(22, 22, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+.navContainer button{
+    height: 50px;
+    width: 140px;
+    background-color: rgb(158, 63, 253);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: .3s;
+    cursor: pointer;
+}
+.navContainer button:hover{
+    background-color: rgb(12, 12, 71);
+    transition: .3s;
+}
+.logo{
+    width: 30%;
+    justify-content: center;
+}
+.btn{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.no-border{
+    border-bottom: 1px solid transparent ;
+    transition: .3s;
+}
+.nav-link.active {
+    color: blue;
+}

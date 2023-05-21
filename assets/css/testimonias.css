@@ -1,0 +1,57 @@
+#testimonias{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(158, 63, 253);
+    padding-top: 50px;
+
+}
+.testimonialText{
+
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 30px;
+}
+.testimonialText p{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+   
+}
+.testimonialText h3{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+.spans{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.boldSpan{
+    font-weight: bold;
+}
+.change{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: .6;
+    cursor: pointer;
+}
+.changer{
+   width: 10%;
+   display: flex;
+   justify-content: center;
+  gap: 10px;
+
+}
+#change1{
+    opacity: 1;
+}
